@@ -97,10 +97,10 @@ call <SID>hi("WildMenu",      s:gui08, "", s:cterm08, "", "")
 
 if &background == "dark"
   call <SID>hi("Cursor",        s:gui00, s:gui05, s:cterm00, s:cterm05, "")
-  call <SID>hi("NonText",       s:gui03, "", s:cterm03, "", "")
+  call <SID>hi("NonText",       s:gui02, "", s:cterm02, "", "")
   call <SID>hi("Normal",        s:gui05, s:gui00, s:cterm05, s:cterm00, "")
   call <SID>hi("LineNr",        s:gui03, s:gui01, s:cterm03, s:cterm01, "")
-  call <SID>hi("SpecialKey",    s:gui03, "", s:cterm03, "", "")
+  call <SID>hi("SpecialKey",    s:gui02, "", s:cterm02, "", "")
   call <SID>hi("StatusLine",    s:gui04, s:gui02, s:cterm04, s:cterm02, "none")
   call <SID>hi("StatusLineNC",  s:gui03, s:gui01, s:cterm03, s:cterm01, "none")
   call <SID>hi("VertSplit",     s:gui02, s:gui02, s:cterm02, s:cterm02, "none")
